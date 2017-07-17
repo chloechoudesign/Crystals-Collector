@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  var randomNum = Math.floor(Math.random()*100)+10;
+  var randomNum = Math.floor(Math.random()*102)+19;
   $('#random-number').html(randomNum);
 
   var userScore = 0;
@@ -13,10 +13,10 @@ $(document).ready(function(){
   var lossCounter = 0;
   $('#losses').html(lossCounter);
 
-  var gemOneValue = $('#gem-one').val(Math.floor(Math.random()*10)+1);
-  var gemTwoValue = $('#gem-two').val(Math.floor(Math.random()*10)+1);
-  var gemThreeValue = $('#gem-three').val(Math.floor(Math.random()*10)+1);
-  var gemFourValue = $('#gem-four').val(Math.floor(Math.random()*10)+1);
+  var gemOneValue = $('#gem-one').val(Math.floor(Math.random()*12)+1);
+  var gemTwoValue = $('#gem-two').val(Math.floor(Math.random()*12)+1);
+  var gemThreeValue = $('#gem-three').val(Math.floor(Math.random()*12)+1);
+  var gemFourValue = $('#gem-four').val(Math.floor(Math.random()*12)+1);
 
   gemOneValue = $('#gem-one').val();
   gemTwoValue = $('#gem-two').val();
@@ -54,13 +54,13 @@ $(document).ready(function(){
 
       alert('You lose, try again?');
 
-      randomNum = Math.floor(Math.random()*100)+10;
+      randomNum = Math.floor(Math.random()*102)+19;
       $('#random-number').html(randomNum);
 
-      $('#gem-one').val(Math.floor(Math.random()*10)+1);
-      $('#gem-two').val(Math.floor(Math.random()*10)+1);
-      $('#gem-three').val(Math.floor(Math.random()*10)+1);
-      $('#gem-four').val(Math.floor(Math.random()*10)+1);
+      $('#gem-one').val(Math.floor(Math.random()*12)+1);
+      $('#gem-two').val(Math.floor(Math.random()*12)+1);
+      $('#gem-three').val(Math.floor(Math.random()*12)+1);
+      $('#gem-four').val(Math.floor(Math.random()*12)+1);
 
       gemOneValue = $('#gem-one').val();
       gemTwoValue = $('#gem-two').val();
@@ -81,13 +81,13 @@ $(document).ready(function(){
 
       alert('You won!');
 
-      randomNum = Math.floor(Math.random()*100)+10;
+      randomNum = Math.floor(Math.random()*102)+19;
       $('#random-number').html(randomNum);
 
-      $('#gem-one').val(Math.floor(Math.random()*10)+1);
-      $('#gem-two').val(Math.floor(Math.random()*10)+1);
-      $('#gem-three').val(Math.floor(Math.random()*10)+1);
-      $('#gem-four').val(Math.floor(Math.random()*10)+1);
+      $('#gem-one').val(Math.floor(Math.random()*12)+1);
+      $('#gem-two').val(Math.floor(Math.random()*12)+1);
+      $('#gem-three').val(Math.floor(Math.random()*12)+1);
+      $('#gem-four').val(Math.floor(Math.random()*12)+1);
 
       gemOneValue = $('#gem-one').val();
       gemTwoValue = $('#gem-two').val();
