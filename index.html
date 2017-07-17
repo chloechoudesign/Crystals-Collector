@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>Crystals Collector Game</title>
+    
+    <!-- Added link to Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added link to game.js -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>
+<div class="container">
+<h1>Crystals Collector</h1>
+<hr></hr>
+<div class="row">
+  <div class="col-md-12">
+        <p>You will be given a random number at the start of the game.
+        </p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+        </p>
+        <p>You win the game by matching your total score to random number. You lose the game if your total score goes above the random number.
+        </p>
+        <p>The value of each crystal is hidden from you until you click on it.
+        </p>
+        <p>Each time when the game starts, the game will change the values of each crystal.
+        </p>
+        <hr></hr>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-8">
+      <h1><div id="random-number"></div></h1>
+  </div>
+  <div class="col-md-4">
+    <p><div>Wins: <span id="wins"></span></div></p>
+    <p><div>Losses: <span id="losses"></span></div></p>
+  </div>
+</div>
+<hr></hr>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="gem-button" id="gem-one" value=""><img src="assets/images/blue-gem.png"></div>
+        <div class="gem-button" id="gem-two" value=""><img src="assets/images/red-gem.png"></div>
+        <div class="gem-button" id="gem-three" value=""><img src="assets/images/green-gem.png"></div>
+        <div class="gem-button" id="gem-four" value=""><img src="assets/images/orange-gem.png"></div>
+    </div>
+</div>
+
+<hr></hr>
+
+<div class="row">
+    <div class="col-md-12">
+        <p>Your total score is:</p>
+       <h1><div id="user-score"></div></h1>
+    </div>
+</div>
+  
+
+</div>
+</body>
+</html>
