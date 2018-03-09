@@ -3,8 +3,10 @@
 ## Overview
 - A JavaScript and jQuery based game in which you collect gems to get to a target score.
 
+
 ## Live Site
 -  https://chloechoudesign.github.io/Crystals-Collector/
+
 
 ## Description
 - You will be given a random number at the start of the game.
@@ -13,12 +15,12 @@
 - The value of each crystal is hidden from you until you click on it.
 - Each time when the game starts, the game will change the values of each crystal.
 
+
 ## Technologies Used
 - Jquery for Dom Manipulation
 - HTML
 - CSS
 - Javascript
-<br/>
 <br/>
 <img width="1073" alt="6" src="https://user-images.githubusercontent.com/28972721/37192926-b0d73e7e-231c-11e8-8818-feaf08786477.png">
 
