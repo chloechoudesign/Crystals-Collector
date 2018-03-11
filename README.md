@@ -20,7 +20,7 @@
 - CSS
 
 <br/>
-<img width="1073" alt="6" src="https://user-images.githubusercontent.com/28972721/37192926-b0d73e7e-231c-11e8-8818-feaf08786477.png">
+<img width="600" alt="6" src="https://user-images.githubusercontent.com/28972721/37192926-b0d73e7e-231c-11e8-8818-feaf08786477.png">
 
 
 
